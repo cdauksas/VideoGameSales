@@ -13,7 +13,7 @@
   - Other Sales
   - Global Sales
 
-![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-1.png)
+![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture13.png)
 
 
 - Now, lets check for duplicate games with the same name and platform:
@@ -24,11 +24,11 @@
 
 - Now let's look at the values with no release year
 
-![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-4.png)
+![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture14.png)
 
 - There are 8 values with no release year. However, there is a year at the end of the Name column that we use to fill in the nulls. Lets write a query that extracts the last 4 digits out of the name for these rows and populate it into the Year_of_Release column.
 
-![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-5.png)
+![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture15.png)
 
 - Great, the array_reverse function worked and extracted the year from the Name and put it in a new column. Lets update the table with these new values:
 
@@ -39,7 +39,7 @@
 ## Let's begin the Analysis
 - Lets look at the count of games released each year:
 
-![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-7.png)
+![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture16.png)
 
 - The largest amount of games were released between 2006 and 2011 (more than 1,000 games were released each year!)
 
