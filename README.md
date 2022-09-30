@@ -1,6 +1,6 @@
 # Video Game Sales 1976-2017 Analysis with Bigquery and Tableau
-## This dataset is available on Kaggle through this link. It contains Video games, platforms, release years, and sales. I performed data cleaning and analysis in Bigquery, and I made visualizations in Tableau Public.
-- I began my exploring the data.
+## This dataset is available on Kaggle through ![this link](https://www.kaggle.com/code/kendallgillies/video-game-sales-by-genre). It contains Video games, platforms, release years, and sales. I performed data cleaning and analysis in Bigquery, and I made visualizations in Tableau Public.
+### Let's begin by exploring the data.
 - We have 17416 rows of data, that includes:
   - Name of the video game
   - Platform (Gaming Console)
@@ -20,13 +20,10 @@
 
 ![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-2.png)
 
-- There are 5 duplicate Names and Platforms that that we want removed from this data set. Lets use a window function to select all unique Names and Platforms:
-
-![](Photo3)
-
-- We have selected the unique names and platforms and we see the total results went down by 5 (from 17416 to 17411). Lets copy that into a new table
+- Great, there are no duplicate Names and Platforms
 
 - Now let's look at the values with no release year
+
 ![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-4.png)
 
 - There are 8 values with no release year. However, there is a year at the end of the Name column that we use to fill in the nulls. Lets write a query that extracts the last 4 digits out of the name for these rows and populate it into the Year_of_Release column.
