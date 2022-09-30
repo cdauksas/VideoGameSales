@@ -37,6 +37,7 @@
 - We have populated the 8 rows with no release year and now there aren’t any null values in that column.
 
 ## Let's begin the Analysis
+
 - Lets look at the count of games released each year:
 
 ![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture16.png)
@@ -47,20 +48,27 @@
 
 ![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-8.png)
 
+
 - Let's also calculate the cumulative percent of games released between 1976-2017. I will put this into a graph in tableau:
 
 ![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-9.png)
 
-- From the data (graph) we can see that the total number of games released from the first half of the time period (1976-2001) is about xx% which is small.
+- From the data  we can see that the total number of games released from the first half of the time period (1976-1996) is 5.7%. This makes sense as consoles became more popular in the early 2000's.
 
 - Now let's look at global sales of video games per year
 
 ![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-10.png)
 
+- Global sales for all platforms peaked in 2008 when it reached $685 million.
+
 - Now let's look at global sales by platform
 
 ![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-11.png)
 
-- Calculate the lifespan
+- Total Sales for PS2 was the greatest at $1.251 Billion, followed by Xbox360 ($967 million), and PS3 ($934 million).
+
+- Next let's calculate the lifespan (the latest year of realease - the first year the platform released a game)
 
 ![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-12.png)
+
+- PC has the largested life span at 31 years! I guess computer gaming isn't going away anytiem 
