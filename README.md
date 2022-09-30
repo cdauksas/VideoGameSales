@@ -1,9 +1,6 @@
 # Video Game Sales 1976-2017 Analysis with Bigquery and Tableau
-## This dataset is available on Kaggle through this link. It contains Video games, platforms, release years, and their sales. I performed data cleaning and analysis in Google's Bigquery, and I made visualizations in Tableau Public.
-- I began my exploring the data:
-
-![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-1.png)
-
+## This dataset is available on Kaggle through this link. It contains Video games, platforms, release years, and sales. I performed data cleaning and analysis in Bigquery, and I made visualizations in Tableau Public.
+- I began my exploring the data.
 - We have 17416 rows of data, that includes:
   - Name of the video game
   - Platform (Gaming Console)
@@ -15,6 +12,10 @@
   - Japan Sales
   - Other Sales
   - Global Sales
+
+![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-1.png)
+
+
 - Now, lets check for duplicate games with the same name and platform:
 
 ![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-2.png)
