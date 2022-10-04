@@ -13,6 +13,11 @@
   - Other Sales
   - Global Sales
 
+///SQL
+SELECT * 
+FROM  `videogames-363720.VG_2017.vg_2017`
+///
+
 ![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture13.png)
 
 
