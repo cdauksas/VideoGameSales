@@ -71,4 +71,7 @@
 
 ![](https://github.com/cdauksas/PortfolioProjects/blob/main/Picture-12.png)
 
-- PC has the largested life span at 31 years! I guess computer gaming isn't going away anytiem 
+- PC has the largested life span at 31 years!
+
+
+
