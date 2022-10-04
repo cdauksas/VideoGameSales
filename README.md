@@ -74,4 +74,8 @@
 - PC has the largested life span at 31 years!
 
 
+## Visualizations
 
+### Using Tableau Public I created visulizations with the data
+
+![](https://github.com/cdauksas/PortfolioProjects/blob/main/VGTableau.PNG)
