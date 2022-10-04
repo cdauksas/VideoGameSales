@@ -1,5 +1,5 @@
 # Video Game Sales 1976-2017 Analysis with Bigquery and Tableau
-## This dataset is available on Kaggle through ![this link](https://www.kaggle.com/code/kendallgillies/video-game-sales-by-genre). It contains Video games, platforms, release years, and sales. I cleaned and analyzed the data in Bigquery, and I made visualizations in Tableau Public.
+## This dataset is available on Kaggle through [this link](https://www.kaggle.com/code/kendallgillies/video-game-sales-by-genre). It contains Video games, platforms, release years, and sales. I cleaned and analyzed the data in Bigquery, and I made visualizations in Tableau Public.
 ### Let's begin by exploring the data.
 - We have 17416 rows of data, that includes:
   - Name of the video game
